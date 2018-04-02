@@ -8,7 +8,7 @@ find_package(catkin REQUIRED cmake_modules COMPONENTS
         std_msgs
         std_srvs
         message_generation
-        actionlib_msgs
+	#        actionlib_msgs
 )
 
 include_directories(    
@@ -42,19 +42,19 @@ add_service_files(
         ShowEmotion.srv
 )
 
-add_action_files(
-        DIRECTORY
-        action
-        FILES
-        PerformMovement.action
-        PerformMovements.action
-        StartRecordTrajectory.action
-        StopRecordTrajectory.action
-)
+#add_action_files(
+#        DIRECTORY
+#        action
+#        FILES
+#        PerformMovement.action
+#        PerformMovements.action
+#        StartRecordTrajectory.action
+#        StopRecordTrajectory.action
+#)
 
 generate_messages(
-        DEPENDENCIES std_msgs std_srvs actionlib_msgs
+        DEPENDENCIES std_msgs std_srvs #actionlib_msgs
 )
 
-catkin_package( CATKIN_DEPENDS roscpp message_runtime message_generation actionlib_msgs
+catkin_package( CATKIN_DEPENDS roscpp message_runtime message_generation #actionlib_msgs
                 INCLUDE_DIRS)
