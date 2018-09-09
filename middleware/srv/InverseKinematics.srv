@@ -1,3 +1,4 @@
+bool use_current_robot_pose
 geometry_msgs/Pose pose
 ---
 # these are the resulting joint angles from inverse kinematics in degrees
