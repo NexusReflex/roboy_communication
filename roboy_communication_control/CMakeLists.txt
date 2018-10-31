@@ -28,6 +28,7 @@ add_message_files(
         DebugNotification.msg
         InfoNotification.msg
         StartRecordTrajectory.msg
+	ControlLeds.msg
 )
 
 add_service_files(
