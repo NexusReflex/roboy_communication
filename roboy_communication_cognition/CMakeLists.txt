@@ -51,7 +51,7 @@ add_service_files(
 	Talk.srv
 	TrainSeq2Seq.srv
 	WhichTones.srv
-
+	SetPoint.srv
 )
 
 generate_messages(
