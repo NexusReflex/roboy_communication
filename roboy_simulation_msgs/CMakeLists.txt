@@ -18,6 +18,7 @@ add_message_files(
         FILES
         Abortion.msg
         BodyPart.msg
+		CardsflowStatus.msg
         COM.msg
         ControllerParameters.msg
 		ControllerType.msg

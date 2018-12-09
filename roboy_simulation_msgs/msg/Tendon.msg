@@ -10,3 +10,4 @@ float32[] ld
 int32[] number_of_viapoints
 # viapoints of the tendon in global coordinates
 geometry_msgs/Vector3[] viapoints
+float32[] deltal # intialTendonLength-currentTendonLength
