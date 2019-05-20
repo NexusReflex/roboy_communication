@@ -35,6 +35,7 @@ add_message_files(
 	TendonInitialization.msg
 	TendonUpdate.msg
         VisualizationControl.msg
+		MetabolicCost.msg
 )
 
 add_service_files(
