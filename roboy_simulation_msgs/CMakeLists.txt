@@ -43,6 +43,7 @@ add_service_files(
         FILES
         UpdateControllerParameters.srv
         Energies.srv
+		GetJointVelocity.srv
 		GymStep.srv
 		GymReset.srv
 		GymGoal.srv
