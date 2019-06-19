@@ -18,6 +18,7 @@ set(msg_files
   "msg/AudioLocation.msg"
   "msg/RecognizedFaces.msg"
   "msg/RecognizedSpeech.msg"
+  "msg/IceCream.msg"
 )
 
 set(srv_files
@@ -29,6 +30,10 @@ set(srv_files
 	"srv/RecognizeObject.srv"
 	"srv/RecognizeSpeech.srv"
 	"srv/Talk.srv"
+  "srv/DriveToLocation.srv"
+  "srv/DetectIceCream.srv"
+  "srv/LocalizeObject.srv"
+  "srv/PlaySound.srv"
 
 )
 

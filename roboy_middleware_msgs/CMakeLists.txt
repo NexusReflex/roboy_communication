@@ -43,6 +43,7 @@ set(srv_files
     "srv/SystemCheck.srv"
     "srv/TorqueControl.srv"
 		"srv/XL320.srv"
+		"srv/MyoBrickCalibrationService.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
