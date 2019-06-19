@@ -34,6 +34,7 @@ set(srv_files
   "srv/DetectIceCream.srv"
   "srv/LocalizeObject.srv"
   "srv/PlaySound.srv"
+  "srv/OrderIceCream.srv"
 
 )
 
