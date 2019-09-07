@@ -34,6 +34,10 @@ add_message_files(
         MotorCommand.msg
         MotorConfig.msg
         MotorStatus.msg
+		Pose.msg
+		InfoNotification.msg
+		WarningNotification.msg
+		ErrorNotification.msg
 )
 
 add_service_files(

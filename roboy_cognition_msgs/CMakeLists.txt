@@ -24,7 +24,8 @@ add_message_files(
 	AudioLocation.msg
   RecognizedFaces.msg
   RecognizedSpeech.msg
-  IceCream.msg)
+  IceCream.msg
+pose.msg)
 
 add_service_files(
     FILES
